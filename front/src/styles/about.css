@@ -1,0 +1,38 @@
+.grid-about {
+  display: grid;
+  grid-gap: 10px;
+  height: 1000px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.about-img {background-color: rebeccapurple;}
+.header-about {
+  background-color: rebeccapurple;
+  grid-column: span 3;
+  }
+  .ads-about {
+    background-color: rebeccapurple;
+    grid-row: span 5;
+  }
+.side-about {
+  background-color: rebeccapurple;
+  grid-row: 2 / span 4;
+}
+
+.main-about {
+  background-color: rebeccapurple;
+  grid-row: 2 / 6;
+  grid-column: 2 / span 3
+}
+
+
+.footer-about {
+  background-color: rebeccapurple;
+  grid-column: 1/-1;
+}
+
+
+.profile-image {
+  width: 400px;
+  height:300px;
+}

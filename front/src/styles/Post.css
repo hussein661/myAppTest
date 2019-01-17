@@ -1,0 +1,78 @@
+.postcard{
+  position: relative;
+  height: 1800px;
+  width: 1100px;
+  margin: 200px auto;
+  background-color: azure;
+  -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .postimagecontainer{
+      float: left;
+      position: relative;
+      left: 150px;
+      top: 0px;
+      height:400px;
+      width: 800px;
+      -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    /* overflow: hidden; */
+  }
+  
+  .postimage{
+      
+      float: left;
+      position: rlative;
+    left: 175px;
+    top: 50%;
+    height: 400px;
+    width: 800px; }
+  
+  .posttitle{
+    color: darkred;
+    
+  }
+  
+
+  .posttext{
+    font-size: 1.8rem !important;
+
+
+  }
+
+  .posttextcontainer{
+    position:relative;
+    float:left;
+    
+  left: 175px;
+    top: 4%;
+    height: 400px;
+    width: 800px; }
+
+    .postdate1{
+      font-size: 1.8rem;
+      position: relative;
+
+      color: darkred;
+      margin: 15px;
+    }
+
+    .autherpost{
+      position: relative;
+      font-size: 2.4rem;
+      color: steelblue;
+      margin: 12px;
+
+
+    }
+  
+  
+  
+  
+  
+  
+  
+  
